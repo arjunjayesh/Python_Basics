@@ -9,8 +9,8 @@ canvas.pack()
 def texttospeech():
     text=entry.get()
     output = gTTS(text=text, lang='en', slow=False)
-    output.save('output1.mp3')
-    os.system('start output1.mp3')
+    output.save('output2.mp4')
+    os.system('start output2.mp4')
 
 entry=Entry(root)
 canvas.create_window(200,100,window=entry) # x and Y points for the center of the entry box
