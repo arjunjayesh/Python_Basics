@@ -20,9 +20,9 @@ mymenu.add_cascade(label="Edit",menu=newmenu)
 newmenu.add_command(label="undo", command=fun1)
 
 toolbar=Frame(root, bg="pink")
+toolbar.pack(side=TOP,fill=X)
 inbutton=Button(toolbar,text="Crop")
 inbutton.pack(side=LEFT,padx=5, pady=5)
-toolbar.pack(side=LEFT,fill=X)
 
 statusbar=Label(root,text="This is a Status Bar",bd=2, relief='sunken')
 statusbar.pack(side=BOTTOM, fill=X)
