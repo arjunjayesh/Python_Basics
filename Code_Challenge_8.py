@@ -7,11 +7,11 @@ Design the above two mentioned functions and apply them both simultaneously on t
 """
 
 def disc1(a):
-    return .10*a
+    return a-(.10*a)
 
 def disc2(b):
-    return .05*b
+    return b-(.05*b)
 
 x=float(input("Enter the Sale Amount: "))
-disc=disc1(x)+disc1(disc2(x))
-print("Discount Amount: ",disc)
+disc=disc2(disc1(x))
+print("Discounted Amount: ",disc)
