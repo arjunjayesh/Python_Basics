@@ -5,6 +5,9 @@ newstring="my numbers:{0}{1}{2}".format(li[1],li[3],li[0])
 print(newstring)
 newstring="my numbers:{0}, {1}, {2}".format(li[1],li[3],li[0])
 print(newstring)
+newlist=[{0},{1}]
+print(newlist)
+print(type(newlist))
 
 newstring1="Hello, I am Inmakes"
 print(newstring1.upper())
