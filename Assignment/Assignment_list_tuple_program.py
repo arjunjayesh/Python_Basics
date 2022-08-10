@@ -6,8 +6,10 @@ rev=list1[::-1] # Reverse of list1
 print("Reverse of the List: ", rev)
 
 # Create a new list from Existing List using string formatting
-li=[10,20,30,40]
+li=['10','20','30','40']
 print(li)
+print("{0}{1}".format(li[1],li[0]))
+
 newstring=[{0},{1}]
 print(newstring)
 print(type(newstring))
